@@ -9,3 +9,9 @@ test:
 
 testverbose:
 	PYTHONPATH=. py.test --verbose -s
+
+run:
+	python main.py
+  
+lint:
+	flake8 hello_world test
